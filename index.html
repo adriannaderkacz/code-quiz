@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookTok Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+        <!--Hyperlink to high scores tab-->
+        <div class="scores"><a href="highscores.html">View Highscores</a></div>
+
+        <!--Timer section-->
+        <div class="timer"> Time: <span id="timer">0</span></div>
+    
+        <div class="wrapper">
+          <div id="start-screen" class="start">
+            <h1>BookTok Quiz</h1>
+
+            <p>Go ahead and try to answer these questions about BookTok within the set time. Keep in mind, though, that any wrong answers will cost you a ten-second penalty on your score or time. Good luck!</p>
+            
+            <!--Start Quiz button-->
+            <button id="start-btn">Start Quiz</button>
+          </div>
+    
+          <!--Quiz questions-->
+          <div id="questions" class""> <!--class="hide"-->
+            <h2 id="question-title"></h2>
+            <div id="choices" class="choices"></div>
+            <div id="answers" class="answers"></div>      
+          </div>
+
+             <!--End screen-->
+      <div id="end-screen" class="hide"> <!--class="hide"-->
+        <h2>Well done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>Save your Score <input type="text" id="initials" max="5" placeholder="Enter your initials here."/>
+          
+          <!--Save Score Button-->
+          <button class="saveScoreBtn" id="submit-btn" type="button">Submit</button></p>
+      </div>
+
+      
+      <div id="feedback" class="feedback"></div> <!--class="feedback hide"-->
+    </div>
+
+    
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+</body>
+</html>
