@@ -15,7 +15,13 @@ N/A
 ## Page
 https://adriannaderkacz.github.io/code-quiz/
 
-[screenshots here]
+<img width="1404" alt="Screenshot 2024-01-15 at 19 47 53" src="https://github.com/adriannaderkacz/code-quiz/assets/92231751/33536ed9-8a5f-473f-b1d1-ea4308fa88b8">
+
+<img width="1400" alt="Screenshot 2024-01-15 at 19 48 06" src="https://github.com/adriannaderkacz/code-quiz/assets/92231751/c90c9a41-5045-4677-b03d-29c15406ef3d">
+
+<img width="1407" alt="Screenshot 2024-01-15 at 19 48 29" src="https://github.com/adriannaderkacz/code-quiz/assets/92231751/3050acd6-de0e-4c92-8489-518318d0c1cd">
+
+<img width="1132" alt="Screenshot 2024-01-15 at 19 49 10" src="https://github.com/adriannaderkacz/code-quiz/assets/92231751/1e176295-1034-4914-9c0e-f5c249311c75">
 
 ## Usage
 Here's a step-by-step guide on how to use the website created with the provided code for the quiz:
