@@ -12,7 +12,6 @@ function displayScores() {
     }
 }
 
-
 //Clear the score
 displayScores()
 
